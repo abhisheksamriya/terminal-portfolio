@@ -91,7 +91,7 @@ const NavBar = () => {
             <a href="#skills" className="text-gray-500">
               Skills
             </a>
-            <a href="certificate" className="text-gray-500">
+            <a href="certificates" className="text-gray-500">
               Certificates
             </a>
             <a href="#projects" className="text-gray-500">
