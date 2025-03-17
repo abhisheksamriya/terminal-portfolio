@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin 'tailwind-scrollbar';
+
+.glitch {
+  position: relative;
+  text-shadow: rgb(0, 255, 252) 0.05em 0px 0px, rgb(252, 0, 255) -0.03em -0.04em 0px, rgb(255, 252, 0) 0.025em 0.04em 0px;
+  animation: 725ms ease 0s infinite normal none ;
+}
+
+body::-webkit-scrollbar{
+  background-color: black;
+  width: 10px;
+  height: 1px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: green;
+  border-radius: 10px; 
+}
