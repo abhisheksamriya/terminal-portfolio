@@ -40,7 +40,7 @@ const About = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 w-full sm:w-auto">
               <a
-                href="https://drive.google.com/file/d/1Zlizp2AZQPitIn-m91cw1RTkk1VYHw4m/view?usp=sharing"
+                href="https://drive.google.com/file/d/13r8zySuD7Sv1EVQRi3hisRYH8CT7WCQL/view?usp=sharing"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 border border-red-400 text-red-400 px-4 py-2 hover:bg-red-400 hover:text-black transition-colors w-full sm:w-auto rounded-xl"
               >
