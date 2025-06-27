@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="flex flex-col items-start">
-            <p className="text-base sm:text-lg mb-6 text-green-300">
+            <p className="text-base sm:text-lg mb-10 sm:mb-6 text-green-300 h-[128px]">
                 <Typewriter words={["Aspiring developer passionate about building innovative and efficient solutions. I enjoy creating impactful projects that blend creativity, scalability, and real-world problem-solving."]} loop={1} cursor cursorStyle="_" typeSpeed={50} deleteSpeed={20} delaySpeed={1000} />
             </p>
             <div className="space-y-2 text-sm sm:text-base text-red-300">
