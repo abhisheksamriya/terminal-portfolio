@@ -1,12 +1,42 @@
-# React + Vite
+# Terminal Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **terminal-style personal portfolio website**, designed to look and feel like a real terminal. Built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+![Screenshot](./src/assests/termi.png)
+![Screenshot](./src/assests/command.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive, terminal-like interface
+- Command-line inspired user experience
+- Smooth animations with Framer Motion
+- Easily customizable commands and personal info
+- Built with **React**, **TypeScript**, and **Tailwind CSS**
+
+---
+
+## 📁 Tech Stack
+
+- ⚛️ React
+- 💨 Tailwind CSS
+- 🎨 Framer Motion (for subtle animations)
+- 🛠️ TypeScript (optional, remove if not used)
+
+---
+
+## 📦 Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/your-username/terminal-portfolio.git
+   cd terminal-portfolio
+   ```
+
+2. **Install dependencies**
+   npm install
+
+3. **Start for development server**
+   npm run dev
