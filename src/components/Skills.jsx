@@ -54,9 +54,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="border border-red-400 p-4 bg-black">
-          <h3 className="text-xl font-bold mb-4 text-red-400">
-            TOOLS
-          </h3>
+          <h3 className="text-xl font-bold mb-4 text-red-400">TOOLS</h3>
           <div className="flex flex-wrap gap-2">
             <span className="text-sm px-3 py-1 border border-red-400 text-red-400">
               Postman
@@ -73,8 +71,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-
-    
     </section>
   );
 };
