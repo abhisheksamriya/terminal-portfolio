@@ -19,7 +19,7 @@ const About = () => {
             SYSTEM ADMIN:
           </div>
           <pre className="text-[6px] sm:text-sm md:text-md lg:text-lg xl:text-xl font-mono text-yellow-400 leading-none whitespace-pre-wrap">
-{`
+            {`
  █████╗ ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗███████╗██╗  ██╗    
 ██╔══██╗██╔══██╗██║  ██║██║██╔════╝██║  ██║██╔════╝██║ ██╔╝    
 ███████║██████╔╝███████║██║███████╗███████║█████╗  █████╔╝     
@@ -27,20 +27,32 @@ const About = () => {
 ██║  ██║██████╔╝██║  ██║██║███████║██║  ██║███████╗██║  ██╗    
 ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    
 `}
-  </pre>
+          </pre>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="flex flex-col items-start">
             <p className="text-base sm:text-lg mb-10 sm:mb-6 text-green-300 h-[128px]">
-                <Typewriter words={["Aspiring developer passionate about building innovative and efficient solutions. I enjoy creating impactful projects that blend creativity, scalability, and real-world problem-solving."]} loop={1} cursor cursorStyle="_" typeSpeed={50} deleteSpeed={20} delaySpeed={1000} />
+              <Typewriter
+                words={[
+                  "Aspiring developer passionate about building innovative and efficient solutions. I enjoy creating impactful projects that blend creativity, scalability, and real-world problem-solving.",
+                ]}
+                loop={1}
+                cursor
+                cursorStyle="_"
+                typeSpeed={50}
+                deleteSpeed={20}
+                delaySpeed={1000}
+              />
             </p>
             <div className="space-y-2 text-sm sm:text-base text-red-300">
               <p className="terminal-cursor">&gt; Location: India, Rajasthan</p>
-              <p className="terminal-cursor">&gt; Learning: Development + Web3</p>
+              <p className="terminal-cursor">
+                &gt; Learning: Development + Web3
+              </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 w-full sm:w-auto">
               <a
-                href="https://drive.google.com/file/d/13r8zySuD7Sv1EVQRi3hisRYH8CT7WCQL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1n-3Z_vcDzIaW_36mNmi6Le7l4byERYzR/view?usp=sharing"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 border border-red-400 text-red-400 px-4 py-2 hover:bg-red-400 hover:text-black transition-colors w-full sm:w-auto rounded-xl"
               >
