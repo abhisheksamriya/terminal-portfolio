@@ -1,6 +1,9 @@
 import React from "react";
 
 const Skills = () => {
+  const languages = ["JavaScript", "TypeScript", " C++", "C", "Html", "Css"];
+  const frameworks = ["Next.js", "React", "Express.js", "Tailwind CSS"];
+  const tools = ["Postman", "Git", "Vs code", "MongoDB Compass"];
   return (
     <section
       id="skills"
@@ -13,61 +16,40 @@ const Skills = () => {
         <div className="border border-green-400 p-4 bg-black">
           <h3 className="text-xl font-bold mb-4 text-green-400">LANGUAGES</h3>
           <div className="flex flex-wrap gap-2">
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              JavaScript
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              TypeScript
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              C++
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              C
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              Html
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              Css
-            </span>
-            <span className="text-sm px-3 py-1 border border-green-400 text-green-400">
-              Mongo DB
-            </span>
+            {languages.map((language) => (
+              <span
+                key={language}
+                className="text-sm px-3 py-1 border border-green-400 text-green-400"
+              >
+                {language}
+              </span>
+            ))}
           </div>
         </div>
         <div className="border border-yellow-400 p-4 bg-black">
           <h3 className="text-xl font-bold mb-4 text-yellow-400">FRAMEWORKS</h3>
           <div className="flex flex-wrap gap-2">
-            <span className="text-sm px-3 py-1 border border-yellow-400 text-yellow-400">
-              React
-            </span>
-            <span className="text-sm px-3 py-1 border border-yellow-400 text-yellow-400">
-              Node.js
-            </span>
-            <span className="text-sm px-3 py-1 border border-yellow-400 text-yellow-400">
-              Express.js
-            </span>
-            <span className="text-sm px-3 py-1 border border-yellow-400 text-yellow-400">
-              Tailwind CSS
-            </span>
+            {frameworks.map((t) => (
+              <span
+                key={t}
+                className="text-sm px-3 py-1 border border-yellow-400 text-yellow-400"
+              >
+                {t}
+              </span>
+            ))}
           </div>
         </div>
         <div className="border border-red-400 p-4 bg-black">
           <h3 className="text-xl font-bold mb-4 text-red-400">TOOLS</h3>
           <div className="flex flex-wrap gap-2">
-            <span className="text-sm px-3 py-1 border border-red-400 text-red-400">
-              Postman
-            </span>
-            <span className="text-sm px-3 py-1 border border-red-400 text-red-400">
-              Git
-            </span>
-            <span className="text-sm px-3 py-1 border border-red-400 text-red-400">
-              VS Code
-            </span>
-            <span className="text-sm px-3 py-1 border border-red-400 text-red-400">
-              Chrome Dev Tools
-            </span>
+            {tools.map((t) => (
+              <span
+                key={t}
+                className="text-sm px-3 py-1 border border-red-400 text-red-400"
+              >
+                {t}
+              </span>
+            ))}
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         <div className="text-green-400">
           <div className="terminal-cursor mb-1">&gt; Current Status...</div>
-          <div className="text-sm text-green-300">Making Status..</div>
+          <div className="text-sm text-green-300">Freelancing..</div>
         </div>
         <div className="text-yellow-400">&gt; WelCome to my Portfolio</div>
         <div className="text-red-400">
