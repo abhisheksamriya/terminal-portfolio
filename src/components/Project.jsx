@@ -4,6 +4,7 @@ import onepiece from "../assests/onepiece.png";
 import PocketMind from "../assests/pocketmind.png";
 import MysteryMates from "../assests/MysteryMates.png";
 import dnd from "../assests/dnd.png";
+import gsap from "../assests/dnd.png";
 import resort from "../assests/resort.png";
 import terminal from "../assests/termi.png";
 
@@ -49,6 +50,14 @@ const Project = () => {
             "TypeScript",
             "Tailwindcss",
           ]}
+        />
+                <ProjectCard
+          img={gsap}
+          name={"Spylt-GSAP"}
+          description={"Awwwards-inspired animated website."}
+          liveLink={"https://gsap-spylt-seven.vercel.app/"}
+          githubLink={"https://github.com/abhisheksamriya/GSAP-Spylt"}
+          skills={["React", "GSAP", "Tailwindcss"]}
         />
         <ProjectCard
           img={dnd}
