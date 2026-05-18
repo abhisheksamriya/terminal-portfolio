@@ -4,7 +4,7 @@ import onepiece from "../assests/onepiece.png";
 import PocketMind from "../assests/pocketmind.png";
 import MysteryMates from "../assests/MysteryMates.png";
 import dnd from "../assests/dnd.png";
-import gsap from "../assests/dnd.png";
+import gsap from "../assests/gsap.png";
 import resort from "../assests/resort.png";
 import terminal from "../assests/termi.png";
 
