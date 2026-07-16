@@ -33,7 +33,8 @@ const Certificates = () => {
                 </p>
               </div>
             </div>
-            <a href="https://drive.google.com/file/d/1FBcyJ9o7KE7dVoVcFggaGzq1J9eDczyw/view?usp=sharing" className="text-base sm:text-lg font-mono text-yellow-400">
+            <a href="https://drive.google.com/file/d/1FBcyJ9o7KE7dVoVcFggaGzq1J9eDczyw/view?usp=sharing" 
+            target="_blank" className="text-base sm:text-lg font-mono text-yellow-400 underline">
               certificate
             </a>
           </div>

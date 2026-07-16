@@ -1,4 +1,3 @@
-import React from "react";
 import { CiMail } from "react-icons/ci";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
@@ -31,7 +30,7 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="flex flex-col items-start">
-            <p className="text-base sm:text-lg mb-10 sm:mb-6 text-green-300 h-[128px]">
+            <p className="text-base sm:text-lg mb-10 sm:mb-6 text-green-300 h-32">
               <Typewriter
                 words={[
                   "Aspiring developer passionate about building innovative and efficient solutions. I enjoy creating impactful projects that blend creativity, scalability, and real-world problem-solving.",
