@@ -33,9 +33,9 @@ const Certificates = () => {
                 </p>
               </div>
             </div>
-            <span className="text-base sm:text-lg font-mono text-yellow-400">
-              August 2024 - continued
-            </span>
+            <a href="https://drive.google.com/file/d/1FBcyJ9o7KE7dVoVcFggaGzq1J9eDczyw/view?usp=sharing" className="text-base sm:text-lg font-mono text-yellow-400">
+              certificate
+            </a>
           </div>
           <ul className="space-y-3 text-yellow-200 ml-4">
             <li className="terminal-cursor flex items-start gap-2 text-sm sm:text-base">
