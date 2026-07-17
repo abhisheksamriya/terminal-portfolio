@@ -6,6 +6,7 @@ import Certificates from "./Certificates";
 import Project from "./Project";
 import Footer from "./Footer";
 import RemoteWork from "./RemoteWork";
+import Experience from "./Experience";
 
 const MainContent = () => {
   return (
@@ -13,6 +14,7 @@ const MainContent = () => {
       <Header />
       <About />
       <Skills />
+      <Experience/>
       <Certificates />
       <Project />
       <RemoteWork />

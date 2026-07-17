@@ -1,6 +1,5 @@
-import React from "react";
+
 import harkirat from "../assests/harkirat.jpg"
-import geek from "../assests/download.png"
 
 
 const Certificates = () => {
